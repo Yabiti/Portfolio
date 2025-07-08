@@ -3,7 +3,6 @@ body {
   background-color: #0e0e2c;
   color: white;
   font-family: sans-serif;
-  text-transform: uppercase;
 }
 
 .navbar {
@@ -35,7 +34,7 @@ body {
 }
 
 .home{
-    padding: 90px 240px;
+    padding: 90px 220px;
     line-height: 100px;
     font-size: 40px;
     background: linear-gradient(90deg, pink,  #0e0e2c);
@@ -57,4 +56,44 @@ body {
     font-size: medium;
     background: linear-gradient(90deg, pink, #0e0e2c);
     color: white;
+}
+
+.my-services{
+    padding: 10px 220px;
+    line-height: 100px;
+    font-size: 30px;
+    background: linear-gradient(90deg, pink,  #0e0e2c);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+   
+}
+
+.list{
+    border: 1px solid white;
+    width: 600px;
+    margin: 10px 200px;
+    border-radius: 15px;
+}
+
+.pRr{
+    font-size: small;
+    padding: 1px 20px;
+}
+
+.h{
+    padding: 0 70px;
+    font-weight: normal;
+}
+
+.list-middle{
+    margin: 0 auto;
+    border: 1px solid white;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.list-wrapper {
+    display: grid;
+    gap: 70px;
 }
