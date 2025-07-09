@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   background-color: #0e0e2c;
@@ -96,4 +97,41 @@ body {
 .list-wrapper {
     display: grid;
     gap: 70px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.li-pics {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+}
+
+.li-pics li {
+  margin: 0;
+  padding: 0;
+}
+
+.li-pics img {
+  display: block;
+  width: 70px;
+  height: auto;
+  object-fit: cover;
+}
+
+.sk{
+  text-align: center;
+}
+
+.port{
+  display: flex;
+  align-items: center;
 }
