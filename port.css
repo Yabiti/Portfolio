@@ -131,6 +131,12 @@ body {
   text-align: center;
 }
 
-.project-card{
+.project-list{
   display: flex;
+  text-align: center;
+  gap: 50px;
+}
+
+.project-card{
+  align-items: center;
 }
