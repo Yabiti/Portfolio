@@ -134,9 +134,20 @@ body {
 .project-list{
   display: flex;
   text-align: center;
-  gap: 50px;
+  justify-content: center;
+  padding: 30px;
 }
 
-.project-card{
-  align-items: center;
+.butto a {
+  padding: 10px 20px;
+  text-decoration: none;
+  background: linear-gradient(90deg, pink,  #0e0e2c);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.project-card p{
+  margin-bottom: 30px;
 }
