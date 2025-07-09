@@ -131,3 +131,6 @@ body {
   text-align: center;
 }
 
+.project-card{
+  display: flex;
+}
