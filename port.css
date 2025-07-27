@@ -4,6 +4,7 @@ body {
   background-color: #0e0e2c;
   color: white;
   font-family: sans-serif;
+  
 }
 
 .navbar {
@@ -42,6 +43,7 @@ body {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    text-transform: uppercase;
 
 }
 
